@@ -31,9 +31,9 @@ export default function FAQPage() {
             q="Is LaundryLobster real?"
             a={
               <>
-                This is a starter site we’re building to deploy on Vercel. Once you
-                decide a city + operations, we can wire up real scheduling,
-                payments, and SMS updates.
+                Yes — we’re launching in <span className="font-semibold">San Francisco</span>.
+                This site is live, and we’re turning on real booking + payments +
+                SMS next.
               </>
             }
           />
@@ -69,8 +69,9 @@ export default function FAQPage() {
             q="How fast is turnaround?"
             a={
               <>
-                Placeholder: next-day is the default, same-day for select windows.
-                We’ll update this once you pick your operating model.
+                In San Francisco, we’re aiming for <span className="font-semibold">next-day</span>
+                turnaround by default, with <span className="font-semibold">same-day</span>
+                available for select pickup windows.
               </>
             }
           />

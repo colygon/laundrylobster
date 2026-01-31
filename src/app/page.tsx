@@ -43,6 +43,7 @@ export default function Home() {
             <div className="flex flex-col gap-10 md:flex-row md:items-center md:justify-between">
               <div className="max-w-2xl">
                 <div className="flex flex-wrap gap-2">
+                  <Pill>📍 Now serving San Francisco</Pill>
                   <Pill>🧤 Signature red gloves</Pill>
                   <Pill>🧺 Pickup + delivery</Pill>
                   <Pill>🫧 Gentle, dependable, kind</Pill>
