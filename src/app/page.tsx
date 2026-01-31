@@ -132,11 +132,11 @@ export default function Home() {
                     </ul>
 
                     <div className="mt-6 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">
-                      <div className="font-semibold">What’s a “TaskLobster”?</div>
+                      <div className="font-semibold">What’s a LaundryLobster?</div>
                       <p className="mt-1 leading-6">
-                        It’s the bigger idea: a friendly helper that tackles chores
-                        beyond laundry. For now, LaundryLobster is the first (and
-                        fluffiest) wave.
+                        A LaundryLobster is a friendly human helper who picks up your
+                        laundry, cleans it carefully, and returns it folded and cozy.
+                        You’ll spot them by the signature red gloves.
                       </p>
                     </div>
                   </div>

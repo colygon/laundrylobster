@@ -85,10 +85,7 @@ export function SiteFooter() {
 
         <div className="mt-10 flex flex-col gap-2 border-t border-zinc-200/70 pt-6 text-xs text-zinc-500 dark:border-white/10 dark:text-zinc-400 md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} LaundryLobster. All rights reserved.</p>
-          <p>
-            MoltyPass is a subscription for discounts. TaskLobster is our future
-            “do-the-thing” companion.
-          </p>
+          <p>MoltyPass is a subscription for discounts.</p>
         </div>
       </div>
     </footer>

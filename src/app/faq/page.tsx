@@ -79,8 +79,8 @@ export default function FAQPage() {
             q="Can we rename things later?"
             a={
               <>
-                Yep. Domain, pricing, “TaskLobster” vs “LaundryLobster”—all easy
-                to adjust. We’re starting with a clean foundation.
+                Yep. Domain, pricing, and wording are all easy to adjust. We’re
+                starting with a clean foundation.
               </>
             }
           />

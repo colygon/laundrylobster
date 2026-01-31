@@ -118,12 +118,12 @@ export default function PricingPage() {
 
         <div className="mt-12 rounded-3xl border border-zinc-200 bg-white p-8 dark:border-white/10 dark:bg-black">
           <h2 className="text-2xl font-semibold tracking-tight">
-            What about TaskLobster?
+            What does MoltyPass get me?
           </h2>
           <p className="mt-3 max-w-3xl leading-7 text-zinc-600 dark:text-zinc-300">
-            TaskLobster is the broader brand idea: one friendly helper for chores
-            beyond laundry. LaundryLobster is the first product, and MoltyPass is
-            the membership that makes it cheaper.
+            MoltyPass is our membership that gives you a discount on LaundryLobster
+            services. Monthly is simple, annual is the best deal (basically two
+            free months).
           </p>
           <div className="mt-6">
             <Link
