@@ -64,6 +64,12 @@ export default function Home() {
 
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                   <Link
+                    href="/do-my-laundry"
+                    className="inline-flex h-12 items-center justify-center rounded-xl bg-red-600 px-5 font-semibold text-white hover:bg-red-500"
+                  >
+                    Do my laundry
+                  </Link>
+                  <Link
                     href="/pricing"
                     className="inline-flex h-12 items-center justify-center rounded-xl bg-zinc-950 px-5 font-semibold text-white hover:bg-zinc-800 dark:bg-white dark:text-zinc-950 dark:hover:bg-zinc-200"
                   >

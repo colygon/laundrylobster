@@ -14,6 +14,9 @@ export function SiteNav() {
           <span>LaundryLobster</span>
         </Link>
         <nav className="flex items-center gap-5 text-sm font-medium text-zinc-700 dark:text-zinc-200">
+          <Link className="hover:text-zinc-950 dark:hover:text-white" href="/do-my-laundry">
+            Do my laundry
+          </Link>
           <Link className="hover:text-zinc-950 dark:hover:text-white" href="/#how">
             How it works
           </Link>
