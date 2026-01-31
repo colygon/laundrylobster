@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteNav } from "@/components/SiteNav";
@@ -81,46 +82,62 @@ export default function Home() {
               </div>
 
               <div className="w-full max-w-md">
-                <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-white/10 dark:bg-black">
-                  <div className="flex items-start justify-between gap-4">
-                    <div>
-                      <div className="text-sm font-semibold text-zinc-950 dark:text-zinc-50">
-                        Today’s wholesome checklist
-                      </div>
-                      <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-300">
-                        You relax. We do the laundry thing.
-                      </p>
-                    </div>
-                    <div className="rounded-2xl bg-red-50 px-3 py-1 text-xs font-semibold text-red-700 dark:bg-red-950/40 dark:text-red-300">
-                      New
+                <div className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm dark:border-white/10 dark:bg-black">
+                  <div className="relative h-48 w-full">
+                    <Image
+                      src="/images/red-gloves.jpg"
+                      alt="Signature red gloves"
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
+                    <div className="absolute bottom-3 left-3 inline-flex items-center gap-2 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-zinc-900 backdrop-blur dark:bg-black/60 dark:text-zinc-50">
+                      🧤 Signature red gloves
                     </div>
                   </div>
-                  <ul className="mt-5 space-y-3 text-sm">
-                    <li className="flex gap-2">
-                      <span className="mt-0.5">✅</span>
-                      <span>Pick up at your door</span>
-                    </li>
-                    <li className="flex gap-2">
-                      <span className="mt-0.5">✅</span>
-                      <span>Wash, dry, fold (or hang)</span>
-                    </li>
-                    <li className="flex gap-2">
-                      <span className="mt-0.5">✅</span>
-                      <span>Text updates (no spam, just tides)</span>
-                    </li>
-                    <li className="flex gap-2">
-                      <span className="mt-0.5">✅</span>
-                      <span>MoltyPass discounts for regulars</span>
-                    </li>
-                  </ul>
 
-                  <div className="mt-6 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">
-                    <div className="font-semibold">What’s a “TaskLobster”?</div>
-                    <p className="mt-1 leading-6">
-                      It’s the bigger idea: a friendly helper that tackles chores
-                      beyond laundry. For now, LaundryLobster is the first (and
-                      fluffiest) wave.
-                    </p>
+                  <div className="p-6">
+                    <div className="flex items-start justify-between gap-4">
+                      <div>
+                        <div className="text-sm font-semibold text-zinc-950 dark:text-zinc-50">
+                          Today’s wholesome checklist
+                        </div>
+                        <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-300">
+                          You relax. We do the laundry thing.
+                        </p>
+                      </div>
+                      <div className="rounded-2xl bg-red-50 px-3 py-1 text-xs font-semibold text-red-700 dark:bg-red-950/40 dark:text-red-300">
+                        New
+                      </div>
+                    </div>
+                    <ul className="mt-5 space-y-3 text-sm">
+                      <li className="flex gap-2">
+                        <span className="mt-0.5">✅</span>
+                        <span>Pick up at your door</span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span className="mt-0.5">✅</span>
+                        <span>Wash, dry, fold (or hang)</span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span className="mt-0.5">✅</span>
+                        <span>Text updates (no spam, just tides)</span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span className="mt-0.5">✅</span>
+                        <span>MoltyPass discounts for regulars</span>
+                      </li>
+                    </ul>
+
+                    <div className="mt-6 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">
+                      <div className="font-semibold">What’s a “TaskLobster”?</div>
+                      <p className="mt-1 leading-6">
+                        It’s the bigger idea: a friendly helper that tackles chores
+                        beyond laundry. For now, LaundryLobster is the first (and
+                        fluffiest) wave.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
