@@ -6,15 +6,11 @@ function PriceCard({
   name,
   monthly,
   annual,
-  annualSavings,
-  details,
   highlight,
 }: {
   name: string;
   monthly: string;
   annual: string;
-  annualSavings: string;
-  details: string;
   highlight?: boolean;
 }) {
   return (
@@ -43,22 +39,14 @@ function PriceCard({
           </div>
           <div className="text-zinc-700 dark:text-zinc-200">{monthly}</div>
         </div>
+
         <div className="flex items-baseline justify-between gap-4">
           <div className="font-semibold text-zinc-950 dark:text-zinc-50">Annual</div>
-          <div className="text-zinc-700 dark:text-zinc-200">{annual}</div>
-        </div>
-        <div className="flex items-baseline justify-between gap-4">
-          <div className="font-semibold text-zinc-950 dark:text-zinc-50">
-            Annual plan savings
-          </div>
-          <div className="text-zinc-700 dark:text-zinc-200">{annualSavings}</div>
-        </div>
-        <div className="flex items-baseline justify-between gap-4">
-          <div className="font-semibold text-zinc-950 dark:text-zinc-50">
-            Key details
-          </div>
-          <div className="text-right text-zinc-700 dark:text-zinc-200">
-            {details}
+          <div className="flex items-center gap-2 text-zinc-700 dark:text-zinc-200">
+            <span>{annual}</span>
+            <span className="inline-flex items-center rounded-full bg-red-600 px-2 py-0.5 text-[11px] font-semibold text-white">
+              2 months FREE Trial
+            </span>
           </div>
         </div>
       </div>
@@ -103,16 +91,12 @@ export default function PricingPage() {
             name="MoltyPass"
             monthly="$9.99"
             annual="$99.99"
-            annualSavings="(equivalent to two free months)"
-            details="Available to all users"
             highlight
           />
           <PriceCard
             name="MoltyPass for Students"
             monthly="$4.99"
             annual="$48.00"
-            annualSavings="(also equal to two free months)"
-            details="Requires enrollment verification"
           />
         </div>
 
