@@ -85,7 +85,7 @@ export default function Home() {
                 <div className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm dark:border-white/10 dark:bg-black">
                   <div className="relative h-48 w-full">
                     <Image
-                      src="/images/red-gloves.jpg"
+                      src="/images/red-gloves-person.png"
                       alt="Signature red gloves"
                       fill
                       className="object-cover"

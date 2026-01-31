@@ -90,10 +90,6 @@ export function SiteFooter() {
             “do-the-thing” companion.
           </p>
         </div>
-
-        <p className="mt-3 text-[11px] text-zinc-500 dark:text-zinc-400">
-          Photo: “Gloves (435632551)” by Nrico (CC BY 2.0), via Wikimedia Commons.
-        </p>
       </div>
     </footer>
   );
