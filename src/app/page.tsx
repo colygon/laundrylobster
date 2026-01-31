@@ -45,7 +45,7 @@ export default function Home() {
                 <div className="flex flex-wrap gap-2">
                   <Pill>📍 Now serving San Francisco</Pill>
                   <Pill>🧤 Signature red gloves</Pill>
-                  <Pill>🧺 Pickup + delivery</Pill>
+                  <Pill>🏠 On-site service (in your home)</Pill>
                   <Pill>🫧 Gentle, dependable, kind</Pill>
                 </div>
 
@@ -160,11 +160,12 @@ export default function Home() {
             </Card>
             <Card title="2) We lobster up">
               A LaundryLobster arrives with signature red gloves, confirms your
-              preferences, and whisks everything away.
+              preferences, and gets to work right in your home — so your laundry
+              never has to leave the house.
             </Card>
-            <Card title="3) Clean + return">
-              We wash, dry, fold, and deliver back—neat, cozy, and easy to put
-              away.
+            <Card title="3) Clean + cozy">
+              We wash, dry, fold (or hang), and leave everything neat and cozy.
+              Optional add-ons: takeout wash/fold and dry cleaning.
             </Card>
           </div>
         </section>
