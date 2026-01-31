@@ -78,7 +78,7 @@ export default function Home() {
                 </div>
 
                 <p className="mt-3 text-xs text-zinc-500 dark:text-zinc-400">
-                  Domain later. Vercel-ready now.
+                  Now at <span className="font-semibold">laundrylobster.com</span>
                 </p>
               </div>
 
