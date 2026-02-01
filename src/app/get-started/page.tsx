@@ -24,7 +24,7 @@ export default function GetStartedPage() {
 
         <div className="mt-10 rounded-3xl border border-zinc-200 bg-white p-6 text-sm text-zinc-600 dark:border-white/10 dark:bg-black dark:text-zinc-300">
           <div className="font-semibold text-zinc-950 dark:text-zinc-50">
-            What we’ll ask in the text
+            What we’ll ask in chat
           </div>
           <ul className="mt-3 list-disc space-y-2 pl-5">
             <li>Do you have a washer and dryer at home?</li>

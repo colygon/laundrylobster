@@ -108,7 +108,7 @@ export function PhoneOnboardingForm() {
         </a>
 
         <a
-          href="https://t.me/colinai"
+          href="https://t.me/LaundryLobsterBot?start=web"
           className="inline-flex h-12 items-center justify-center rounded-xl border border-zinc-300 bg-white px-4 font-semibold text-zinc-900 hover:bg-zinc-100 dark:border-white/15 dark:bg-black dark:text-zinc-50 dark:hover:bg-white/5"
           target="_blank"
           rel="noreferrer"
@@ -134,12 +134,8 @@ export function PhoneOnboardingForm() {
           {msg}
         </pre>
         <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400">
-          Telegram can’t auto-fill a message to a username; tap Telegram, then
-          paste the copied text.
-        </p>
-        <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400">
-          After you send this, LaundryLobster will reply with a few quick
-          questions (washer/dryer, takeout option, and scheduling).
+          For Telegram, tap Telegram above — the bot will ask the questions one at
+          a time.
         </p>
       </div>
 
