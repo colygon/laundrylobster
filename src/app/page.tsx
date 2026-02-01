@@ -57,9 +57,9 @@ export default function Home() {
                 </h1>
 
                 <p className="mt-5 max-w-xl text-lg leading-8 text-zinc-700 dark:text-zinc-300">
-                  LaundryLobster picks up your laundry, cleans it carefully, and
-                  brings it back folded and cozy. Our lobsters arrive with their
-                  signature red gloves—and a surprisingly wholesome attitude.
+                  A LaundryLobster comes to your home, does your laundry on-site,
+                  folds and hangs everything neatly, and can even make the bed.
+                  Signature red gloves included — wholesome attitude guaranteed.
                 </p>
 
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row">
