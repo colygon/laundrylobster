@@ -17,13 +17,7 @@ function digitsOnlyE164(phoneE164: string) {
 }
 
 function onboardingText() {
-  return (
-    "Hi LaundryLobster! 🦞 I want to get started.\n\n" +
-    "1) Do I have a washer + dryer at home?\n" +
-    "2) Or should we do takeout wash & fold?\n" +
-    "3) What day/time is good for a visit in San Francisco?\n" +
-    "4) Any preferences (delicates, hang dry, detergent)?"
-  );
+  return "Hi LaundryLobster! 🦞 I want to get started.";
 }
 
 export function PhoneOnboardingForm() {
@@ -126,7 +120,7 @@ export function PhoneOnboardingForm() {
       <div className="mt-5 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-700 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">
         <div className="flex items-center justify-between gap-3">
           <div className="font-semibold text-zinc-950 dark:text-zinc-50">
-            Message we’ll send
+            Starter message
           </div>
           <button
             type="button"
@@ -142,6 +136,10 @@ export function PhoneOnboardingForm() {
         <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400">
           Telegram can’t auto-fill a message to a username; tap Telegram, then
           paste the copied text.
+        </p>
+        <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400">
+          After you send this, LaundryLobster will reply with a few quick
+          questions (washer/dryer, takeout option, and scheduling).
         </p>
       </div>
 
