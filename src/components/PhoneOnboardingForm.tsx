@@ -19,7 +19,6 @@ function digitsOnlyE164(phoneE164: string) {
 function onboardingText() {
   return (
     "Hi LaundryLobster! 🦞 I want to get started.\n\n" +
-    "Quick questions for me:\n" +
     "1) Do I have a washer + dryer at home?\n" +
     "2) Or should we do takeout wash & fold?\n" +
     "3) What day/time is good for a visit in San Francisco?\n" +
