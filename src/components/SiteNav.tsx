@@ -59,7 +59,7 @@ export function SiteNav() {
             Get started
           </Link>
           <Link className="hover:text-zinc-950 dark:hover:text-white" href="/do-my-laundry">
-            Do my laundry
+            Pricing
           </Link>
           <Link className="hover:text-zinc-950 dark:hover:text-white" href="/#how">
             How it works

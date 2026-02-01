@@ -27,7 +27,7 @@ export default function DoMyLaundryPage() {
 
       <main className="mx-auto w-full max-w-6xl px-5 py-16">
         <div className="flex flex-col gap-4">
-          <h1 className="text-4xl font-semibold tracking-tight">Do my laundry</h1>
+          <h1 className="text-4xl font-semibold tracking-tight">Pricing</h1>
           <p className="max-w-2xl text-lg leading-8 text-zinc-600 dark:text-zinc-300">
             Here’s simple pricing, side-by-side. MoltyPass members get the same
             service for less.
