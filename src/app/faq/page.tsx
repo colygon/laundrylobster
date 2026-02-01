@@ -38,6 +38,16 @@ export default function FAQPage() {
             }
           />
           <QA
+            q="How do you vet helpers?"
+            a={
+              <>
+                We use an advanced AI built with <span className="font-semibold">OpenClaw</span> to
+                source and screen helpers — including structured interviews and
+                background checks — before anyone comes to your home.
+              </>
+            }
+          />
+          <QA
             q="What’s with the red gloves?"
             a={
               <>

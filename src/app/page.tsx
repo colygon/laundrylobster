@@ -47,6 +47,7 @@ export default function Home() {
                   <Pill>🧤 Signature red gloves</Pill>
                   <Pill>🏠 On-site service (in your home)</Pill>
                   <Pill>💬 Book by text (iMessage / WhatsApp / Telegram)</Pill>
+                  <Pill>🛡️ OpenClaw AI-vetted helpers</Pill>
                   <Pill>🫧 Gentle, dependable, kind</Pill>
                 </div>
 
@@ -122,11 +123,11 @@ export default function Home() {
                     <ul className="mt-5 space-y-3 text-sm">
                       <li className="flex gap-2">
                         <span className="mt-0.5">✅</span>
-                        <span>Pick up at your door</span>
+                        <span>In-home service (your laundry stays with you)</span>
                       </li>
                       <li className="flex gap-2">
                         <span className="mt-0.5">✅</span>
-                        <span>Wash, dry, fold (or hang)</span>
+                        <span>Wash, dry, fold + hang (and make the bed)</span>
                       </li>
                       <li className="flex gap-2">
                         <span className="mt-0.5">✅</span>
@@ -134,7 +135,7 @@ export default function Home() {
                       </li>
                       <li className="flex gap-2">
                         <span className="mt-0.5">✅</span>
-                        <span>MoltyPass discounts for regulars</span>
+                        <span>OpenClaw AI helps screen + background check helpers</span>
                       </li>
                     </ul>
 
