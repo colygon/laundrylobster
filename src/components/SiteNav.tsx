@@ -64,9 +64,6 @@ export function SiteNav() {
           <Link className="hover:text-zinc-950 dark:hover:text-white" href="/#how">
             How it works
           </Link>
-          <Link className="hover:text-zinc-950 dark:hover:text-white" href="/#services">
-            Services
-          </Link>
           <Link className="hover:text-zinc-950 dark:hover:text-white" href="/pricing">
             MoltyPass
           </Link>
@@ -102,17 +99,17 @@ export function SiteNav() {
             <div className="grid gap-1 text-sm font-medium text-zinc-800 dark:text-zinc-100">
               <Link
                 className="rounded-xl px-3 py-3 hover:bg-zinc-100 dark:hover:bg-white/5"
+                href="/do-my-laundry"
+                onClick={() => setOpen(false)}
+              >
+                Pricing
+              </Link>
+              <Link
+                className="rounded-xl px-3 py-3 hover:bg-zinc-100 dark:hover:bg-white/5"
                 href="/#how"
                 onClick={() => setOpen(false)}
               >
                 How it works
-              </Link>
-              <Link
-                className="rounded-xl px-3 py-3 hover:bg-zinc-100 dark:hover:bg-white/5"
-                href="/#services"
-                onClick={() => setOpen(false)}
-              >
-                Services
               </Link>
               <Link
                 className="rounded-xl px-3 py-3 hover:bg-zinc-100 dark:hover:bg-white/5"
