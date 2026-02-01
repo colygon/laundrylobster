@@ -46,6 +46,7 @@ export default function Home() {
                   <Pill>📍 Now serving San Francisco</Pill>
                   <Pill>🧤 Signature red gloves</Pill>
                   <Pill>🏠 On-site service (in your home)</Pill>
+                  <Pill>💬 Book by text (iMessage / WhatsApp / Telegram)</Pill>
                   <Pill>🫧 Gentle, dependable, kind</Pill>
                 </div>
 
@@ -129,7 +130,7 @@ export default function Home() {
                       </li>
                       <li className="flex gap-2">
                         <span className="mt-0.5">✅</span>
-                        <span>Text updates (no spam, just tides)</span>
+                        <span>Chat + schedule by text (iMessage/WhatsApp/Telegram)</span>
                       </li>
                       <li className="flex gap-2">
                         <span className="mt-0.5">✅</span>
@@ -161,8 +162,9 @@ export default function Home() {
 
           <div className="mt-8 grid gap-5 md:grid-cols-3">
             <Card title="1) Schedule">
-              Pick a pickup window. (Soon you’ll be able to do this in-app—until
-              then, we keep it friendly and simple.)
+              Text us on iMessage, WhatsApp, or Telegram to pick a time and share
+              preferences. (App coming later — for now, we keep it friendly and
+              simple.)
             </Card>
             <Card title="2) We lobster up">
               A LaundryLobster arrives with signature red gloves, confirms your
