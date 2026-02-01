@@ -45,7 +45,7 @@ export default function Home() {
                 <div className="flex flex-wrap gap-2">
                   <Pill>📍 Now serving San Francisco</Pill>
                   <Pill>🧤 Signature red gloves</Pill>
-                  <Pill>🏠 On-site service (in your home)</Pill>
+                  <Pill>🏠 On-site service or Take-out</Pill>
                   <Pill>💬 Book by text (iMessage / WhatsApp / Telegram)</Pill>
                   <Pill>🛡️ Background vetted helpers</Pill>
                   <Pill>🫧 Gentle, dependable, kind</Pill>
