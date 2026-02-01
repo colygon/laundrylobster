@@ -47,7 +47,7 @@ export default function Home() {
                   <Pill>🧤 Signature red gloves</Pill>
                   <Pill>🏠 On-site service (in your home)</Pill>
                   <Pill>💬 Book by text (iMessage / WhatsApp / Telegram)</Pill>
-                  <Pill>🛡️ OpenClaw AI-vetted helpers</Pill>
+                  <Pill>🛡️ Background vetted helpers</Pill>
                   <Pill>🫧 Gentle, dependable, kind</Pill>
                 </div>
 
