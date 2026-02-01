@@ -55,6 +55,9 @@ export function SiteNav() {
 
         {/* Desktop nav */}
         <nav className="hidden items-center gap-5 text-sm font-medium text-zinc-700 dark:text-zinc-200 md:flex">
+          <Link className="hover:text-zinc-950 dark:hover:text-white" href="/get-started">
+            Get started
+          </Link>
           <Link className="hover:text-zinc-950 dark:hover:text-white" href="/do-my-laundry">
             Do my laundry
           </Link>
@@ -75,10 +78,10 @@ export function SiteNav() {
         {/* Mobile actions */}
         <div className="flex items-center gap-2 md:hidden">
           <Link
-            href="/do-my-laundry"
+            href="/get-started"
             className="inline-flex h-10 items-center justify-center rounded-xl bg-red-600 px-3 text-sm font-semibold text-white hover:bg-red-500"
           >
-            Do my laundry
+            Get started
           </Link>
           <button
             type="button"
